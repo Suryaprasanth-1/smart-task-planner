@@ -23,3 +23,23 @@ uvicorn main:app --reload
 cd frontend  
 npm install  
 npm run dev
+
+smart-task-planner/
+│
+├── backend/
+│   ├── main.py
+│   ├── auth.py
+│   ├── models.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── .env.example
+│
+├── frontend/
+│   ├── src/
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── tsconfig.json
+│
+├── .gitignore
+├── README.md
+└── LICENSE
